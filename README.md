@@ -45,3 +45,11 @@ e por fim:
 ```bash
 npx cypress open
 ```
+
+## Aula 2
+
+Links importantes:
+
+Para saber mais sobre [CSS](https://www.w3schools.com/css/)
+Para saber mais sobre [HTML](https://www.w3schools.com/html/)
+Jogo sobre [CSS](https://flukeout.github.io/)
