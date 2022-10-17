@@ -158,12 +158,12 @@
     "yallist": "^4.0.0",
     "yauzl": "^2.10.0"
   },
-  "devDependencies": {
-    "cypress": "^10.9.0"
-  },
   "scripts": {
     "test": "cypress run"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.10.0"
+  }
 }
