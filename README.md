@@ -53,3 +53,9 @@ Links importantes:
 Para saber mais sobre [CSS](https://www.w3schools.com/css/)
 Para saber mais sobre [HTML](https://www.w3schools.com/html/)
 Jogo sobre [CSS](https://flukeout.github.io/)
+
+## Aula 5
+
+Links importantes:
+
+https://docs.cypress.io/api/commands/check#Syntax
