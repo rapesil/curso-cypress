@@ -59,3 +59,10 @@ Jogo sobre [CSS](https://flukeout.github.io/)
 Links importantes:
 
 https://docs.cypress.io/api/commands/check#Syntax
+
+
+Exercício (Básico)
+
+- Fluxo de sucesso: preencha todos os campos obrigatórios com valores válidos e clique em enviar. Valide a mensagem.
+- Fluxo de erro (campo obrigatório): deixe ao menos um campo obrigatório sem preenchimento e clique em enviar. Valide a mensagem.
+- Fluxo de erro (formato inválido): preencha todos os campos obrigatórios, mas digite um email com formato errado (ex: sem @) e clique em enviar. Valide mensagem.
