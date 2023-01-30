@@ -29,3 +29,27 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     // failing the test
     return false
   })
+
+Cypress.Commands.add('melancia', ()=>{
+  cy.get('#fname').type('Rafael')
+})
+
+Cypress.Commands.add('preencheDadosDoCartaoDeCredito', ()=> {
+  cy.get('#cname').type('RAFAEL P SILVA')
+  cy.get('#ccnum').type('1111222233334444')
+  cy.get('#expmonth').type('Maio')
+  cy.get('#expyear').type('2030')
+  cy.get('#cvv').type('123')
+})
+
+Cypress.Commands.add('preencheDadosPessoaisCom', (nome, email, endereco) => {
+  cy.get('#fname').type(nome)
+  cy.get('#email').type(email)
+  cy.get('#adr').type(endereco)
+})
+
+Cypress.Commands.add('preencheDadosPessoais', (dadosPessoais) => {
+  cy.get('#fname').type(dadosPessoais.nome)
+  cy.get('#email').type(dadosPessoais.email)
+  cy.get('#adr').type(dadosPessoais.endereco)
+})
